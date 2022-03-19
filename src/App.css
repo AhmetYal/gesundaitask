@@ -1,17 +1,8 @@
 .card {
-  width: 200px;
-  background-color: aquamarine;
+  background-color: antiquewhite;
+  width: fit-content;
+  margin-top: 10px;
+}
+.newuser {
   display: flex;
-  align-items: center;
-  justify-content: space-around;
-  border: 1px solid white;
-  margin: 50px;
-}
-.icon {
-  flex: 2;
-  color: blue;
-  flex-direction: column;
-}
-.card > p {
-  font-size: 14px;
 }

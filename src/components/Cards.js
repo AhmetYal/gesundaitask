@@ -1,18 +1,15 @@
 import React from "react";
-import { Card } from "antd";
-import { UserOutlined } from "@ant-design/icons";
 
 const Cards = () => {
   return (
     <>
-      <Card className="card">
-        <UserOutlined className="icon" />
-        <p>Name </p>
-
-        <p>Value:500</p>
-
-        <p>Total:1000 </p>
-      </Card>
+      <div className="card">
+        <ul className="list-group ">
+          <li className="list-group-item">Name: Ahmet</li>
+          <li className="list-group-item">Value: 500</li>
+          <li className="list-group-item">Total: 1000</li>
+        </ul>
+      </div>
     </>
   );
 };
