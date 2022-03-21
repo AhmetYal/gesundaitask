@@ -1,0 +1,20 @@
+.card {
+
+    width: 200px;
+    min-height: 150px;
+    .avatar-div {
+        .avatar {
+            height: 50px;
+            width: 50px;
+        }
+    
+        &--text {
+            border-bottom: 1px solid #000 ;
+        }
+    
+        .dots {
+            height: 30px;
+            width: 30px;
+        }
+    }
+}
